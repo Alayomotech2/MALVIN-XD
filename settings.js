@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~UthGEZCJ#TV8P0TrNumANFOF5DzeplEVZKtfen04vuXYcU-EGSnQ",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ",
+BOT_NAME: process.env.BOT_NAME || "ALAYOMO MD",
 // add bot name here for menu
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -56,13 +56,13 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ 🚀🔥*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ALAYOMO TECH BOT 🚀🔥*",
 // set the auto reply massage on status reply    
 
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
-ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
